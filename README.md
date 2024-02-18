@@ -1,1 +1,9 @@
-# Cyberbullying
+# DETECTION OF CYBERBULLYING ON SOCIAL MEDIA USING MACHINE LEARNING
+
+The project focuses on developing a cyberbullying detection system, particularly targeting hate speech on Twitter and personal attacks on Wikipedia. The goal is to create a resource for schools and organizations to prevent and address cyberbullying effectively. The project utilizes Natural Language Processing (NLP) techniques for text analysis and employs machine learning algorithms for classification. 
+
+For hate speech detection on Twitter, the project uses logistic regression and random forest algorithms. These models are trained on a dataset collected from Kaggle, containing 16,858 records. Text preprocessing techniques are applied to clean and prepare the data for analysis. NLP processing converts the text data into numerical vectors using techniques such as bag-of-words (BoW) and term frequency-inverse document frequency (TF-IDF). The logistic regression algorithm is selected for its simplicity and interpretability, while random forest is chosen for its ability to handle large datasets and prevent overfitting.
+
+Similarly, for personal attack detection on Wikipedia, the project employs machine learning techniques, including logistic regression and possibly other algorithms like AdaBoost or decision trees. Feature selection methods are applied to identify relevant features for classification. The performance of different models is evaluated using cross-validation to select the most efficient one for deployment.
+
+In conclusion, the project presents a comprehensive approach to combat cyberbullying by leveraging NLP and machine learning techniques. By accurately detecting hate speech and personal attacks on social media platforms, the system aims to provide valuable insights and support for schools and organizations in addressing cyberbullying issues effectively. The chosen algorithms and tools ensure robustness and efficiency in cyberbullying detection, contributing to a safer online environment for all users.
